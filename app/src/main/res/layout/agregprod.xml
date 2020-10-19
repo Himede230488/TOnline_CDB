@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/apdIvImagenProducto"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="28dp"
+        android:src="" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tigger Clothing "
+        android:layout_marginTop="33dp"
+        android:textSize="35dp"
+        android:textColor="#FFFFFF"
+        android:background="#00FF00"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:layout_marginLeft="100dp"/>
+
+    <EditText
+        android:id="@+id/producto"
+        android:layout_below="@+id/apdIvImagenProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Producto"
+        android:inputType="textPersonName|textCapWords"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/backgr"
+        android:backgroundTint="#0000FF"
+        android:textColor="@color/Neg"/>
+
+    <EditText
+        android:id="@+id/marca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/producto"
+        android:hint="Marca"
+        android:inputType="textPersonName|textCapWords"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/backgr"
+        android:backgroundTint="#0000FF"
+        android:textColor="@color/Neg"/>
+
+    <EditText
+        android:id="@+id/descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/marca"
+        android:hint="Descripcion"
+        android:inputType="textPersonName|textCapWords"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/backgr"
+        android:backgroundTint="#0000FF"
+        android:textColor="@color/Neg"/>
+
+    <EditText
+        android:id="@+id/precio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/descripcion"
+        android:hint="Precio"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/backgr"
+        android:backgroundTint="#0000FF"
+        android:textColor="@color/Neg"/>
+
+    <Button
+        android:id="@+id/btnAgregarProducto"
+        android:layout_margin="10dp"
+        android:background=""
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/precio"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"/>
+
+    <Button
+        android:id="@+id/btnMostarProducto"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="" />
+
+
+</RelativeLayout>

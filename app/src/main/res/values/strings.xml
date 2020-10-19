@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TOnline_CDB</string>
+    <string name="Busqueda">Busc Producto</string>
+    <string name="ItemProd">Nomb del Producto</string>
+    <string name="ItemPrecioo">Precio</string>
+    <string name="ItemZero">0.0</string>
+    <string name="Marcaa">Marca</string>
+    <string name="Descripcion">Descrip</string>
+
+</resources>
